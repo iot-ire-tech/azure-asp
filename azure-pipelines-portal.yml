@@ -20,7 +20,7 @@ steps:
     location: 'North Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'azuredeploy.json'
-    overrideParameters: '-projectName iotAzPtrl -linkedTemplateUri linkedStorageAccount.json'
+    overrideParameters: '-projectName iotAzPtrl -linkedTemplateUri https://raw.githubusercontent.com/iot-ire-tech/azure-asp/main/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
