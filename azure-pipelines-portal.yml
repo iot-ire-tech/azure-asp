@@ -20,7 +20,7 @@ steps:
     location: 'North Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'azuredeploy.json'
-    overrideParameters: '-projectName [EnterAProjectName] -linkedTemplateUri [EnterTheLinkedTemplateURL]'
+    overrideParameters: '-projectName azuredevopsPortal -linkedTemplateUri linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
